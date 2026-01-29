@@ -44,6 +44,9 @@ Both API functions are fully implemented:
    - Fetches complete menu data for a specific store
    - Returns all menu categories, items, prices, and descriptions
 
+Next:
+I want to add sessions, adding items, customizing items, and even checking out. To my knowledge you can't do these with the exposed api on the taco bell website. I think it requires playwright or selenium to click through the pages to accomplish this. Would appreciate help if anyone is interested!
+
 ## Usage Example
 
 ```python
