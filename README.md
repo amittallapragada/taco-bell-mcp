@@ -12,6 +12,8 @@ An MCP (Model Context Protocol) server for interacting with the Taco Bell API. S
 ## Installation
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -25,8 +27,8 @@ Add to your Claude Desktop config:
 {
   "mcpServers": {
     "taco-bell": {
-      "command": "/Users/amittallapragada/Code/taco-bell-mcp/.venv/bin/python3",
-      "args": ["/Users/amittallapragada/Code/taco-bell-mcp/main.py"]
+      "command": "~/taco-bell-mcp/.venv/bin/python3",
+      "args": ["~/taco-bell-mcp/main.py"]
     }
   }
 }
